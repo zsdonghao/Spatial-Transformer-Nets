@@ -4,10 +4,39 @@
 
 In this repositary, we implemented a STN for [2D Affine Transformation](https://en.wikipedia.org/wiki/Affine_transformation) on MNIST dataset. We generated images with size of 40x40 from the original MNIST dataset, and distorted the images by random rotation, shifting, shearing and zoom in/out. The STN was able to learn to automatically apply transformations on distorted images via classification task.
 
-<table class="image">
+
 <div align="center">
-    <img src="https://github.com/zsdonghao/tl-book/blob/master/images/cifar-10.jpg?raw=true"/>  
+    <img src="https://github.com/zsdonghao/Spatial-Transformer-Nets/blob/master/images/transform.jpeg" width="50%" height="50%"/>
     <br>  
-    <em align="center">Image Caption is here~~</em>  
+    <em align="center">Fig 1：Transformation</em>  
 </div>
-</table>
+
+
+<div align="center">
+    <img src="https://github.com/zsdonghao/Spatial-Transformer-Nets/blob/master/images/network.jpeg" width="50%" height="50%"/>
+    <br>  
+    <em align="center">Fig 2：Network</em>  
+</div>
+
+<div align="center">
+    <img src="https://github.com/zsdonghao/Spatial-Transformer-Nets/blob/master/images/formula.jpeg" width="50%" height="50%"/>
+    <br>  
+    <em align="center">Fig 3：Formula</em>  
+</div>
+
+## Result
+
+After classification task, the STN is able to transform the distorted image in Fig 4 back to Fig 5.
+
+<div align="center">
+    <img src="https://github.com/zsdonghao/Spatial-Transformer-Nets/blob/master/images/before_stn.png" width="50%" height="50%"/>
+    <br>  
+    <em align="center">Fig 4: Input</em>  
+</div>
+
+<div align="center">
+    <img src="https://github.com/zsdonghao/Spatial-Transformer-Nets/blob/master/images/after_stn.png" width="50%" height="50%"/>
+    <br>  
+    <em align="center">Fig 5: Output</em>  
+</div>
+
