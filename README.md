@@ -1,6 +1,8 @@
 # Spatial Transformer Networks
 
-[Spatial Transformer Networks](https://arxiv.org/abs/1506.02025)  (STN) is a dynamic mechanism that produces transformations of input images (or feature maps)including  scaling, cropping, rotations, as well as non-rigid deformations. This enables the network to not only select regions of an image that are most relevant (attention), but also to transform those regions to simplify recognition in the following layers.
+[Spatial Transformer Networks](https://arxiv.org/abs/1506.02025)  (STN) is a dynamic mechanism that produces transformations of input images (or feature maps)including  scaling, cropping, rotations, as well as non-rigid deformations. This enables the network to not only select regions of an image that are most relevant (attention), but also to transform those regions to simplify recognition in the following layers. 
+
+Video for different transformation [click me](https://drive.google.com/file/d/0B1nQa_sA3W2iN3RQLXVFRkNXN0k/view).
 
 In this repositary, we implemented a STN for [2D Affine Transformation](https://en.wikipedia.org/wiki/Affine_transformation) on MNIST dataset. We generated images with size of 40x40 from the original MNIST dataset, and distorted the images by random rotation, shifting, shearing and zoom in/out. The STN was able to learn to automatically apply transformations on distorted images via classification task.
 
