@@ -28,7 +28,7 @@ In this repositary, we implemented a STN for [2D Affine Transformation](https://
 
 ## Result
 
-After classification task, the STN is able to transform the distorted image in Fig 4 back to Fig 5.
+After classification task, the STN is able to transform the distorted image from Fig 4 back to Fig 5.
 
 <div align="center">
     <img src="https://github.com/zsdonghao/Spatial-Transformer-Nets/blob/master/images/before_stn.png" width="50%" height="50%"/>
