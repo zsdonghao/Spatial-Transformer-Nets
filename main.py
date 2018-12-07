@@ -1,6 +1,7 @@
 #! /usr/bin/python
 # -*- coding: utf8 -*-
 
+import numpy as np
 import tensorflow as tf
 import tensorlayer as tl
 from tensorlayer.layers import *
@@ -27,7 +28,7 @@ def pad_distort_im_fn(x):
     x = tl.prepro.rotation(x, rg=30, is_random=True, fill_mode='constant')
     x = tl.prepro.shear(x, 0.05, is_random=True, fill_mode='constant')
     x = tl.prepro.shift(x, wrg=0.25, hrg=0.25, is_random=True, fill_mode='constant')
-    x = tl.prepro.zoom(x, zoom_range=[0.95, 1.05], is_random=True, fill_mode='constant')
+    x = tl.prepro.zoom(x, zoom_range=(0.95, 1.05), fill_mode='constant')
     return x
 
 def pad_distort_ims_fn(X):
