@@ -1,3 +1,5 @@
+# [MOVED TO HERE](https://github.com/tensorlayer/tensorlayer/tree/master/examples/spatial_transformer_network)
+
 # Spatial Transformer Networks
 
 [Spatial Transformer Networks](https://arxiv.org/abs/1506.02025)  (STN) is a dynamic mechanism that produces transformations of input images (or feature maps)including  scaling, cropping, rotations, as well as non-rigid deformations. This enables the network to not only select regions of an image that are most relevant (attention), but also to transform those regions to simplify recognition in the following layers. 
